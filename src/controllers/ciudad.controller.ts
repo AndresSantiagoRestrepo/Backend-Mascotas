@@ -1,21 +1,26 @@
+import {authenticate} from '@loopback/authentication';
 import {
   Count,
   CountSchema,
   Filter,
   FilterExcludingWhere,
   repository,
-  Where,
+  Where
 } from '@loopback/repository';
 import {
-  post,
-  param,
-  get,
-  getModelSchemaRef,
-  patch,
+  del, get,
+  getModelSchemaRef, param,
+
+
+  patch, post,
+
+
+
+
   put,
-  del,
+
   requestBody,
-  response,
+  response
 } from '@loopback/rest';
 import {Ciudad} from '../models';
 import {CiudadRepository} from '../repositories';
@@ -23,9 +28,11 @@ import {CiudadRepository} from '../repositories';
 export class CiudadController {
   constructor(
     @repository(CiudadRepository)
-    public ciudadRepository : CiudadRepository,
-  ) {}
+    public ciudadRepository: CiudadRepository,
+  ) { }
 
+
+  @authenticate('admin', 'persona')
   @post('/ciudad')
   @response(200, {
     description: 'Ciudad model instance',
@@ -75,7 +82,7 @@ export class CiudadController {
   ): Promise<Ciudad[]> {
     return this.ciudadRepository.find(filter);
   }
-
+  @authenticate('admin')
   @patch('/ciudad')
   @response(200, {
     description: 'Ciudad PATCH success count',
