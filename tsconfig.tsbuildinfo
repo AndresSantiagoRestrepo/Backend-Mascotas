@@ -1817,13 +1817,13 @@
         "affectsGlobalScope": false
       },
       "./src/config/keys.ts": {
-        "version": "bea166ad2c0cfd675aea726d70280d5a1aeb2c2bccf84ea11939973a3b6f9a4e",
-        "signature": "8df7e56b8bf7881b472fe22eb5c1bf50b5c68ace4c32561d9bde3fe4b610be96",
+        "version": "49adb616f9c2f442cb6a5e08b8d997e92e7486330776f7f1d05ca7dc8a30c45e",
+        "signature": "a6b165b384137373ab29cef5a568e8e75db13f00774cc355ab04d982a77ba0de",
         "affectsGlobalScope": false
       },
       "./src/services/notificacion.service.ts": {
-        "version": "9663bf62b9c19094a56ba71fa19ed36e18c940445b3c3c1b14acd4a76b8311ea",
-        "signature": "303def4ab84be06459a1b40b3876f3870838b9417fe7b0027217699a830a3fae",
+        "version": "d0eee35e758e618405be3a00e461adc64b1ee251634ae6e0a369434d291042af",
+        "signature": "256a22e248a4feec0817b7168e59e27c3b00887f12d59b7567453b17fcb9033e",
         "affectsGlobalScope": false
       },
       "./src/models/vacuna.model.ts": {
@@ -1882,8 +1882,8 @@
         "affectsGlobalScope": false
       },
       "./src/models/usuario.model.ts": {
-        "version": "b9d00233b65edef47053fe2b82e5e28df3531ce4f4a43dfa7b84d9daf790e50c",
-        "signature": "eb01dae11e764a61d7e31fe74963398be629969496fb81ce40efb7bd77bba17e",
+        "version": "567368830d0b4b297f54a20bf0c009ce3440e7cf70097ae44384c83a957882d8",
+        "signature": "6fe2aedbfccc33a05382aa16656f3c637b1b4eac25a3a0f6cf3338db7f926548",
         "affectsGlobalScope": false
       },
       "./src/models/rol.model.ts": {
@@ -1896,9 +1896,14 @@
         "signature": "ea63e8960d7cc7ba8308b2fdea1e73ad7f5ea0d4fefc75214444e070cb1ed2dc",
         "affectsGlobalScope": false
       },
+      "./src/models/resetear-clave.model.ts": {
+        "version": "3f9e84e6c34b53246da861470c8aa2ac185afbabd79bc1da7e2808346a62b599",
+        "signature": "72fc28400c2d50511d9165a10c41874df8d8fcfb9c8f9090afbd91fd442b81b3",
+        "affectsGlobalScope": false
+      },
       "./src/models/index.ts": {
-        "version": "26eadc8e262877fa2c9d6bb525984735eb4cc76b2ae344d409cc45078963b195",
-        "signature": "26eadc8e262877fa2c9d6bb525984735eb4cc76b2ae344d409cc45078963b195",
+        "version": "158f0747994bbd39546f4b4eaf3d764055ef28ce8c1ba8ca8b2b8d4b2e8125dd",
+        "signature": "7e11d002a19f05df29a178105d54242ca57ecadefa4e491e208d50902634c682",
         "affectsGlobalScope": false
       },
       "./src/services/jwt.service.ts": {
@@ -2252,8 +2257,8 @@
         "affectsGlobalScope": false
       },
       "./src/controllers/usuario.controller.ts": {
-        "version": "09fa203af6928046118839c64ea49e16e5951dfb2beeb7d7cc2c0e66e8b69d7b",
-        "signature": "eaa9575adc0f465c1e175a565c29791c981bca92c7fe235c2a13915c63b290e1",
+        "version": "2be9f9a9ddecc061f340c07862ec7f1d112e31bc1f60e38728f9a1a019091a6b",
+        "signature": "ac38af1ae70996a8d8f1acc3695646e4b8827fd2d53e888ea5d1a3de6acf3e75",
         "affectsGlobalScope": false
       },
       "./src/controllers/persona.controller.ts": {
@@ -4506,6 +4511,7 @@
         "./src/models/mascota.model.ts",
         "./src/models/persona.model.ts",
         "./src/models/raza.model.ts",
+        "./src/models/resetear-clave.model.ts",
         "./src/models/rol.model.ts",
         "./src/models/solicitud-adopcion.model.ts",
         "./src/models/tipo-mascota.model.ts",
@@ -4533,6 +4539,10 @@
         "./node_modules/tslib/tslib.d.ts",
         "./src/models/mascota.model.ts",
         "./src/models/tipo-mascota.model.ts"
+      ],
+      "./src/models/resetear-clave.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
       ],
       "./src/models/rol.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -6731,6 +6741,7 @@
         "./src/models/mascota.model.ts",
         "./src/models/persona.model.ts",
         "./src/models/raza.model.ts",
+        "./src/models/resetear-clave.model.ts",
         "./src/models/rol.model.ts",
         "./src/models/solicitud-adopcion.model.ts",
         "./src/models/tipo-mascota.model.ts",
@@ -6751,6 +6762,9 @@
       "./src/models/raza.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
         "./src/models/mascota.model.ts"
+      ],
+      "./src/models/resetear-clave.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/models/rol.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -7356,6 +7370,7 @@
       "./src/models/mascota.model.ts",
       "./src/models/persona.model.ts",
       "./src/models/raza.model.ts",
+      "./src/models/resetear-clave.model.ts",
       "./src/models/rol.model.ts",
       "./src/models/solicitud-adopcion.model.ts",
       "./src/models/tipo-mascota.model.ts",
