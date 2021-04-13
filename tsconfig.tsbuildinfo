@@ -1897,12 +1897,12 @@
         "affectsGlobalScope": false
       },
       "./src/models/resetear-clave.model.ts": {
-        "version": "3f9e84e6c34b53246da861470c8aa2ac185afbabd79bc1da7e2808346a62b599",
+        "version": "558e2df22d55c71a9782154bbcbbe87edb19232e78ffd2c5a18de0506c17dc1f",
         "signature": "72fc28400c2d50511d9165a10c41874df8d8fcfb9c8f9090afbd91fd442b81b3",
         "affectsGlobalScope": false
       },
       "./src/models/index.ts": {
-        "version": "158f0747994bbd39546f4b4eaf3d764055ef28ce8c1ba8ca8b2b8d4b2e8125dd",
+        "version": "7e11d002a19f05df29a178105d54242ca57ecadefa4e491e208d50902634c682",
         "signature": "7e11d002a19f05df29a178105d54242ca57ecadefa4e491e208d50902634c682",
         "affectsGlobalScope": false
       },
@@ -2062,7 +2062,7 @@
         "affectsGlobalScope": true
       },
       "./src/controllers/carga-archivos.controller.ts": {
-        "version": "1bc3862797a9bbabf19ee8020056fcef48505b553cf88160643aa2a4fd5d66c6",
+        "version": "76714a0fc92e91c29398699f0cf062ee4441354a85195eb670872c40a7d44d2f",
         "signature": "6196a134fe855d2cdbc04991a1d9ce32dbb8cdf3cb61c4276fa7ad4e534ab437",
         "affectsGlobalScope": false
       },
@@ -2177,7 +2177,7 @@
         "affectsGlobalScope": false
       },
       "./src/controllers/descarga-archivos.controller.ts": {
-        "version": "c1e58b1d51d65acd053e77ba39eb985ebb3ca3465adf932239eadc68acff604e",
+        "version": "9345c7fe7e9c62b4fd7a4b1a26341cd70de9c67aa9545f7585c38ea2cf6ba941",
         "signature": "a5bbe70b2f68cacf119c29cc6ebdcc41002af58e035d39619f30653749429031",
         "affectsGlobalScope": false
       },
@@ -2302,7 +2302,7 @@
         "affectsGlobalScope": false
       },
       "./src/controllers/index.ts": {
-        "version": "df23210dfc62ca8c8ec6083faac0ced8affd3914675a104e39cbf5dcd050ad04",
+        "version": "684bf586ea73483bb265b3b4f6c91ba6203cf9dab224565991c6a68027ad50c5",
         "signature": "684bf586ea73483bb265b3b4f6c91ba6203cf9dab224565991c6a68027ad50c5",
         "affectsGlobalScope": false
       },
