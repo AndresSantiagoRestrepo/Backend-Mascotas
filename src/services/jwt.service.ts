@@ -30,7 +30,7 @@ export class JwtService {
       let decode = jwt.verify(token, llaves.jwtKey);
       return decode;
     } catch {
-      return null
+      return null;
     }
   }
 
